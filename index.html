@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Javascript on steroids</title>
+</head>
+<body>
+    <section>
+        <h2>Challenge 1: Your Age in Days</h2>
+        <div class="flex-box-container">
+            <button class="buttons" id="click-me" onclick="clickMe()" style="background-color: royalblue;">Click me</button>
+            <button class="buttons" id="reset" onclick="reset()" style="background-color: red;">reset</button>
+        </div>
+        <div class="flex-box-container" >
+            <div class="flex-box-container" id="result-div">
+
+            </div>
+        </div>       
+    </section>
+
+    <section>
+        <h2>Challenge 2: Picture Generator </h2>
+        <div class="flex-box-container">
+            <button class="buttons" id="generate-picture" onclick="addPicture()" style="background: green;">Generate Picture</button>
+        </div>
+        <div class="flex-box-container" id="result-div-2">
+            
+        </div>  
+    </section>
+
+    <section>
+        <h2>Challenge 4: Change The Color of All Buttons</h2>
+        <div class="flex-box-container">
+            <form action="">
+                <select name="backdrop" id="background" onchange="chgBtnColor(this.options[this.selectedIndex].value)">
+                    <option value="random">Random</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="red">Red</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>
+            <button style="background-color: royalblue;">Wee!</button>
+            <button style="background-color: red;">Yahoo!</button>
+            <button style="background-color: yellow; color: black;">Google!</button>
+            <button style="background-color: green;">Facebook!</button>
+        </div>        
+    </section>
+    
+    
+    <script src="static/js/script.js"></script>
+</body>
+</html>

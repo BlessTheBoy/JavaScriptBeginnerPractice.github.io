@@ -1,0 +1,33 @@
+section{
+    border: 1px solid black;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto 50px;
+    height: 100%;
+}
+
+.flex-box-container{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 8px;
+    font: .9em sans-serif;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+#result-div2{
+    min-height: 150px;
+}
+
+#result-div-2 img{
+    width: 150px;
+    margin: 10px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.7);
+}
